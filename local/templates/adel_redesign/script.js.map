@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["$","document","ready","on","event","OpenWin","preventDefault"],"mappings":"AAwFAA,EAAEC,UAAUC,MAAM,WAEdF,EAAE,mBAAmBG,GAAG,QAAS,SAASC,OACtCC,QAAQ,YACRD,OAAME,kBAGVN,GAAE,gBAAgBG,GAAG,QAAS,SAASC,OACnCC,QAAQ,OACRD,OAAME","file":"script.min.js"}

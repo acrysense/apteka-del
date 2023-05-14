@@ -1,0 +1,4 @@
+<?
+$MESS["INSTAGRAM_TPL_MSG_TITLE"] = "INSTAGRAM";
+$MESS["INSTAGRAM_TPL_MSG_IMG_ALT"] = "Аптека Adel в Instagram";
+$MESS["INSTAGRAM_TPL_MSG_BTN"] = "Подписаться";

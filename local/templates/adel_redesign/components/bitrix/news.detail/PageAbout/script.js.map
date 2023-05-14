@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["$","document","ready","click","btn","this","slideToggle","text"],"mappings":"AAAAA,EAAEC,UAAUC,MAAM,WAEdF,EAAE,uBAAuBG,MAAM,WAC3B,GAAIC,KAAMJ,EAAEK,KACZL,GAAE,0BAA0BM,YAAY,WACpC,GAAIF,IAAIG,SAAW,eAAgB,CAC/BH,IAAIG,KAAK,gBACR,CACDH,IAAIG,KAAK","file":"script.min.js"}

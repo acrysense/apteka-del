@@ -1,0 +1,111 @@
+.InsuranceList{
+	display: inline-block;
+}
+
+.InsuranceList-Item{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.InsuranceList-Item::before{
+	content: " ";
+	display: table;
+}
+
+.InsuranceList-Item:last-child{
+	border: none;
+	padding: 30px 0 0 0;
+}
+
+.InsuranceList-Item-img{
+	width: 30%;
+	display:inline-block;
+	vertical-align:top;
+	background: center no-repeat;
+	background-size: cover;
+	
+}
+
+.InsuranceList-Item-img img {width:100%; height:auto;border-radius: 10px;}
+
+.InsuranceList-Item-name{
+	margin-bottom: 15px;
+}
+
+.InsuranceList-Item-name a{
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-family: RalewayBold,Arial,sans-serif;
+	text-transform: uppercase;
+}
+
+.InsuranceList-Item-name a:hover{
+	text-decoration: none;
+	color: #7cc623;
+}
+
+.InsuranceList-Item-desc{
+	width: 70%;
+	display:inline-block;
+	margin-left:30px;
+	vertical-align:top;
+	margin-bottom: 15px;
+}
+
+.InsuranceList-Item-desc ul,
+.InsuranceList-Item-desc ul {
+	padding-top:0; padding-bottom:0;
+	padding-left:10px !important;
+	margin-bottom:0;
+}
+
+.InsuranceList-Item-btn-more {margin-top:15px;}
+.InsuranceList-Item-btn-more a{
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer
+}
+
+.InsuranceList-Item-btn-more a:hover{
+	text-decoration: none;
+	color: #7cc623;
+}
+
+@media(max-width: 767px){
+	/*
+	.InsuranceList-Item{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.InsuranceList-Item-img{
+		order: 2;
+	}
+	.InsuranceList-Item-name{
+		order: 1;
+	}
+	.InsuranceList-Item-desc{
+		order: 3;
+	}
+	.InsuranceList-Item-btn-more{
+		order: 4;
+	}
+*/
+	.InsuranceList-Item-img,
+	.InsuranceList-Item-name,
+	.InsuranceList-Item-desc,
+	.InsuranceList-Item-btn-more{
+		width: 100%;
+		float: none;
+		padding: 0;
+		margin-bottom: 15px;
+		margin-left:0;
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [55.694627, 37.524634]}, "properties": {"balloonContent": "Школы и детсады", "clusterCaption": "Гимназия", "hintContent": "Университетская Гимназия", "adress": "Ломоносовский просп., 27, корп. 7, Москва, Россия", "iconCaption": "Гимназия"}, "options": {"preset": "my#school"}},
+		{"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [55.717959, 37.421274]}, "properties": {"balloonContent": "Школы и детсады", "clusterCaption": "Частная школа", "hintContent": "Аптека", "adress": "Ломоносовский просп., 27", "iconCaption": "Частная школа"}, "options": {"preset": "my#school"}},
+
+		{"type": "Feature", "id": 2, "geometry": {"type": "Point", "coordinates": [55.87417, 37.669838]}, "properties": {"balloonContent": "Фитнес и спорт", "clusterCaption": "Фитнес", "hintContent": "Фитнес", "adress": "Ломоносовский просп., 27", "iconCaption": "Фитнес"}, "options": {"preset": "my#sport"}},
+		{"type": "Feature", "id": 3, "geometry": {"type": "Point", "coordinates": [55.71677, 37.482338]}, "properties": {"balloonContent": "Фитнес и спорт", "clusterCaption": "Фитнес", "hintContent": "Фитнес", "adress": "Ломоносовский просп., 27", "iconCaption": "Фитнес"}, "options": {"preset": "my#sport"}},
+
+		{"type": "Feature", "id": 4, "geometry": {"type": "Point", "coordinates": [55.627303, 37.728976]}, "properties": {"balloonContent": "Здоровье, клиники", "clusterCaption": "Больница", "hintContent": "Больница", "adress": "Ломоносовский просп., 27", "iconCaption": "Больница"}, "options": {"preset": "my#health"}},
+		{"type": "Feature", "id": 5, "geometry": {"type": "Point", "coordinates": [55.816515, 37.597163]}, "properties": {"balloonContent": "Здоровье, клиники", "clusterCaption": "Больница", "hintContent": "Больница", "adress": "Ломоносовский просп., 27", "iconCaption": "Больница"}, "options": {"preset": "my#health"}},
+
+		{"type": "Feature", "id": 6, "geometry": {"type": "Point", "coordinates": [55.682016, 37.500441]}, "properties": {"balloonContent": "Парки и водоёмы", "clusterCaption": "Парк культуры и отдыха", "hintContent": "Парк культуры и отдыха", "adress": "Ломоносовский просп., 27", "iconCaption": "Парк культуры и отдыха"}, "options": {"preset": "my#park"}},
+		{"type": "Feature", "id": 7, "geometry": {"type": "Point", "coordinates": [55.67831, 37.460428]}, "properties": {"balloonContent": "Парки и водоёмы", "clusterCaption": "Парк культуры и отдыха", "hintContent": "Парк культуры и отдыха", "adress": "Ломоносовский просп., 27", "iconCaption": "Парк культуры и отдыха"}, "options": {"preset": "my#park"}},
+
+		{"type": "Feature", "id": 8, "geometry": {"type": "Point", "coordinates": [55.707654, 37.456664]}, "properties": {"balloonContent": "Торговые центры", "clusterCaption": "Торговый центр", "hintContent": "Торговый центр", "adress": "Ломоносовский просп., 27", "iconCaption": "Торговый центр"}, "options": {"preset": "my#shop"}},
+		{"type": "Feature", "id": 9, "geometry": {"type": "Point", "coordinates": [55.727877, 37.475662]}, "properties": {"balloonContent": "Торговые центры", "clusterCaption": "Торговый центр", "hintContent": "Торговый центр", "adress": "Ломоносовский просп., 27", "iconCaption": "Торговый центр"}, "options": {"preset": "my#shop"}},
+
+		{"type": "Feature", "id": 10, "geometry": {"type": "Point", "coordinates": [55.717215, 37.44175]}, "properties": {"balloonContent": "Вузы", "clusterCaption": "Колледж", "hintContent": "Колледж", "adress": "Ломоносовский просп., 27", "iconCaption": "Колледж"}, "options": {"preset": "my#universities"}},
+		{"type": "Feature", "id": 11, "geometry": {"type": "Point", "coordinates": [55.712031, 37.477651]}, "properties": {"balloonContent": "Вузы", "clusterCaption": "Колледж", "hintContent": "Колледж", "adress": "Ломоносовский просп., 27", "iconCaption": "Колледж"}, "options": {"preset": "my#universities"}},
+
+		{"type": "Feature", "id": 12, "geometry": {"type": "Point", "coordinates": [55.739662, 37.528226]}, "properties": {"balloonContent": "Достопримечательности", "clusterCaption": "Тренажёрный зал", "hintContent": "Тренажёрный зал", "adress": "Ломоносовский просп., 27", "iconCaption": "Тренажёрный зал"}, "options": {"preset": "my#attractions"}},
+		{"type": "Feature", "id": 13, "geometry": {"type": "Point", "coordinates": [55.74018, 37.528255]}, "properties": {"balloonContent": "Достопримечательности", "clusterCaption": "Тренажёрный зал", "hintContent": "Тренажёрный зал", "adress": "Ломоносовский просп., 27", "iconCaption": "Тренажёрный зал"}, "options": {"preset": "my#attractions"}}
+	]
+}

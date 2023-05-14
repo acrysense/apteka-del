@@ -1,0 +1,46 @@
+.BannerSearch {
+    position: relative;
+    background: center no-repeat;
+    background-size: cover;
+}
+
+
+.searchBlock{
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.Banner {padding: 50px 0;}
+.Banner img{vertical-align: middle;}
+
+.leftSide .bottom .btn {
+    float: none;
+}
+
+
+.rightSide .personalMenu{
+    padding-top: 0;
+}
+
+.personalMenu li{
+    padding: 15px 0;
+}
+.personalMenu li:first-child{
+    padding-top: 0;
+}
+
+.personalMenu li a{
+    font-size: 20px;
+    font-family: 'RalewayBold', Arial, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+.personalMenu li a:hover{
+    color: #7cc623;
+}
+
+.personalMenu li .btn-logout{
+    font-size: 16px;
+    font-family: 'RalewayRegular', Arial, sans-serif;
+}

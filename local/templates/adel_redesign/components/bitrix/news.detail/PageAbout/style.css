@@ -1,0 +1,21 @@
+.PageAbout{
+	padding-top: 29px;
+}
+
+.PageAbout-img{
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.PageAbout-btn-more{
+	margin: 30px 0 50px 0;
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-family: RalewayBold,Arial,sans-serif;
+	cursor: pointer;
+}
+
+.PageAbout-btn-more:hover{
+	color: #7cc623;
+}

@@ -1,0 +1,66 @@
+.ms-subscribe-title{
+	color: #333;
+	font-family: RalewayBold,Arial,sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.bx-input-group{
+	margin-bottom: 15px;
+}
+
+.bx-input-group label.error {
+	position: relative;
+	font-size: 13px;
+	text-align: center;
+	left: 0;
+}
+/*
+.bx_subscribe_checkbox_container{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+
+.bx_subscribe_checkbox_container{
+	display: inline-block;
+	margin: 5px 0 15px 0;
+}
+
+.bx_subscribe_checkbox_container label{
+	cursor: pointer;
+	color: #333;
+}
+
+.bx_subscribe_checkbox_container input[type=checkbox] {
+	display:none;
+}
+
+.bx_subscribe_checkbox_container input[type=checkbox] + label:before{
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin: 0 5px 2px 0;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+}
+
+.bx_subscribe_checkbox_container input[type=checkbox]:checked + label:before {
+	content: "\2714";
+	color: #000000;
+	background-color: #fff;
+	text-align: center;
+	line-height: 16px;
+}
+
+.bx_subscribe_checkbox_container input[type=checkbox]:checked + label{
+	color: #333;
+	transition: 1s;
+}
+*/

@@ -1,0 +1,23 @@
+{
+  "name": "apteka-adel.by-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbibko@bitbucket.org/natix/apteka-adel.by-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/natix/apteka-adel.by-html#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "less": "^3.11.3"
+  }
+}

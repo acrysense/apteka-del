@@ -1,0 +1,11 @@
+.InsuranceDetail{
+	margin-top: 29px;
+}
+
+.InsuranceDetail-img img{
+	border-radius: 5px;
+}
+
+.InsuranceDetail-text{
+	margin: 30px 0;
+}

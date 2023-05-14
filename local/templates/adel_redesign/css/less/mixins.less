@@ -1,0 +1,53 @@
+.clearfix() {
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.transition(...) {
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
+}
+
+#gradient {
+  .vertical(@startColor: #555, @endColor: #333, @colorStop: 100%) {
+    background-color: mix(@startColor, @endColor, 60%);
+    background-image: -moz-linear-gradient(top, @startColor, @endColor @colorStop); // FF 3.6+
+    background-image: -ms-linear-gradient(top, @startColor, @endColor @colorStop); // IE10
+    background-image: -webkit-gradient(linear, 0 0, 0 @colorStop, from(@startColor), to(@endColor)); // Android 2.3, Safari 4+, Chrome 2+
+    background-image: -webkit-linear-gradient(top, @startColor, @endColor @colorStop); // Safari 5.1+, Chrome 10+
+    background-image: -o-linear-gradient(top, @startColor, @endColor @colorStop); // Opera 11.10
+    background-image: linear-gradient(top, @startColor, @endColor @colorStop); // The standard
+  }
+
+  .vertical-noise(@noise, @startColor: #555, @endColor: #333, @colorStop: 100%) {
+    background-color: mix(@startColor, @endColor, 60%);
+    background-image: @noise, -moz-linear-gradient(top, @startColor, @endColor @colorStop); // FF 3.6+
+    background-image: @noise, -ms-linear-gradient(top, @startColor, @endColor @colorStop);
+    background-image: @noise, -webkit-gradient(linear, 0 0, 0 @colorStop, from(@startColor), to(@endColor)); // Android 2.3, Safari 4+, Chrome 2+
+    background-image: @noise, -webkit-linear-gradient(top, @startColor, @endColor @colorStop); // Safari 5.1+, Chrome 10+
+    background-image: @noise, -o-linear-gradient(top, @startColor, @endColor @colorStop); // Opera 11.10
+    background-image: @noise, linear-gradient(top, @startColor, @endColor @colorStop); // The standard
+  }
+
+  .radial(@innerColor: #555, @outerColor: #333, @pos: center, @colorStop: 100%) {
+    background-image: -moz-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // FF 3.6+
+    background-image: -ms-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // IE10
+    background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(@innerColor), to(@outerColor)); // Android 2.3, Safari 4+, Chrome 2+
+    background-image: -webkit-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // Safari 5.1+, Chrome 10+
+    background-image: -o-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // Opera 11.10
+  }
+}
+
+.box-shadow (@string) {
+  -webkit-box-shadow: @string;
+  -moz-box-shadow: @string;
+  box-shadow: @string;
+}
