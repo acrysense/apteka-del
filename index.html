@@ -967,7 +967,13 @@
                 </div>
               </li>
               <li class="tab-green">
-                <div class="topControls">
+                <div class="s-pharmacy">
+                  <div class="pharmacy-map relative p-map main-map">
+                    <div id="map" class="p-map-frame" data-center='55.76, 37.64'></div>
+                  </div>
+                </div>
+
+                <!-- <div class="topControls">
                   <div class="checkboxOuter">
                     <input type="checkbox" name="location" id="locationCheckBox" class="checkbox-styled" />
                     <label for="locationCheckBox"></label>
@@ -1006,13 +1012,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <div id="maps-canvas"></div>
+                </div> -->
+                <!-- <div id="maps-canvas"></div>
                 <div id="maps-error">
                   К сожалению, по Вашему запросу ничего не найдено
                 </div>
-                <div class="ms-btn-icon-arrow up hide">Свернуть</div>
+                <div class="ms-btn-icon-arrow up hide">Свернуть</div> -->
               </li>
             </ul>
           </div>
@@ -2610,6 +2615,12 @@
   <script src="local/templates/adel_redesign/js/slideshow.js"></script>
   <script src="local/templates/adel_redesign/js/custom.js"></script>
   <script src="local/templates/adel_redesign/dist/bundle.js"></script>
+
+  <script src="local/templates/adel_redesign/js/places.js"></script>
+  <script src="local/templates/adel_redesign/js/default-map.js"></script>
+  <script>
+    const maps = new PMap([55.751574, 37.573856]);
+  </script>
 
   <script>
     (function (w, d, u) {

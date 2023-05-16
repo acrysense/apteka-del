@@ -512,3 +512,18 @@
     color: #7cc622;
 	background: rgba(124, 198, 34, 0.1);
 }
+
+.main-map {
+	min-height: 550px;
+}
+
+.main-map > * {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+@media screen and (max-width: 767px) {
+	.main-map {
+		min-height: 400px;
+	}
+}
